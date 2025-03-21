@@ -52,10 +52,17 @@ How to Run
 Frontend:
 
 cd frontend/
+
 Run npm install
+
 Run npm start
 
 Backend:
 
-cd backend/
+Go to backend/
+
+Create a virtual environment
+
+Install dependencies using requirements.txt
+
 Run python app.py
