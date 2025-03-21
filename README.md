@@ -3,18 +3,27 @@ MindSage is a simple yet intelligent AI-powered chatbot that assesses a user's e
 
 # What This Project Does:
 --> Provides an interactive chatbot for users to talk about their mental and emotional state.
+
 --> Analyzes user input to detect emotions using a fine-tuned transformer model.
+
 --> Displays live emotion updates in a sidebar during the chat.
+
 --> Dynamically adjusts questions based on detected emotional state.
+
 --> Generates a final assessment summary explaining the detected mental state and suggesting positive actions.
+
 --> Uses SHAP (SHapley Additive exPlanations) to explain why the AI made a certain prediction.
 
 
 # Technologies Used
 --> Frontend: React.js, HTML, CSS
+
 --> Backend: Python, Flask
+
 --> AI Model: HuggingFace Transformers (fine-tuned on GoEmotions dataset)
+
 --> Explainability: SHAP
+
 --> Others: Axios for API calls, Sentiment library for initial rule-based setup
 
 # Key Features
