@@ -44,3 +44,18 @@ MindSage is a simple yet intelligent AI-powered chatbot that assesses a user's e
 
 # Dataset Used
 We used the GoEmotions dataset by Google. It contains user comments labeled with 27 emotion classes. We converted the .tsv file into .csv and fine-tuned a transformer model for binary and multi-class classification of mental states.
+
+# How to run
+
+How to Run
+
+Frontend:
+
+cd frontend/
+Run npm install
+Run npm start
+
+Backend:
+
+cd backend/
+Run python app.py
