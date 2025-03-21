@@ -1,0 +1,26 @@
+{
+  "sadness": [
+    "What’s been bothering you lately?",
+    "Can you tell me more about what's making you feel this way?"
+  ],
+  "joy": [
+    "That’s wonderful! What’s making you feel so good?",
+    "What’s the highlight of your day?"
+  ],
+  "anger": [
+    "What triggered this feeling?",
+    "Do you want to talk about what made you upset?"
+  ],
+  "neutral": [
+    "How has your day been so far?",
+    "Anything you’d like to share with me?"
+  ],
+  "fear": [
+    "What’s worrying you right now?",
+    "Do you feel safe and supported?"
+  ],
+  "gratitude": [
+    "What are you feeling grateful for?",
+    "Would you like to express your thanks to someone?"
+  ]
+}

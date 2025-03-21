@@ -1,0 +1,14 @@
+/* Navbar.css */
+.navbar {
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #00f0ff;
+}
+
+.glow {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00f0ff;
+  text-shadow: 0 0 5px #00f0ff, 0 0 10px #00f0ff;
+}

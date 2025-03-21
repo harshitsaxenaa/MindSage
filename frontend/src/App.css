@@ -1,0 +1,55 @@
+/* Reset & Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  background: linear-gradient(135deg, #0d0d1a, #1c1c2b);
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header Styling */
+.app-header {
+  background-color: #0d0d1a;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.app-header h1 {
+  font-size: 1.8rem;
+  color: #90caf9;
+}
+
+.brand-name {
+  font-weight: bold;
+  color: #90caf9;
+  text-shadow: 0 0 6px #2979ff, 0 0 12px #2979ff;
+  letter-spacing: 1px;
+}
+
+/* Main Body Styling */
+.app-main {
+  flex: 1;
+  overflow: auto;
+  padding: 1rem;
+}
+
+/* Footer Styling */
+.app-footer {
+  background-color: #0d0d1a;
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  color: #ccc;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,35 @@
+/* LandingPage.css */
+.landing-container {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.landing-title {
+  font-size: 3rem;
+  color: #00f0ff;
+  text-shadow: 0 0 20px #00f0ff;
+}
+
+.landing-desc {
+  margin: 20px auto;
+  max-width: 600px;
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.enter-btn {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1.1rem;
+  background-color: #00f0ff;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.enter-btn:hover {
+  background-color: #00d0ff;
+  transform: scale(1.05);
+}
